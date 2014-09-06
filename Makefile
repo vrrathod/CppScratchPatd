@@ -1,6 +1,6 @@
 # makefile
 
-binaries= arraySpiral fibo heaps permuteChars Top4 floodfill
+binaries= arraySpiral.out fibo.out heaps.out permuteChars.out Top4.out floodfill.out
 
 GXX=g++ -O2 -Wall
 
