@@ -7,22 +7,22 @@ GXX=g++ -O2 -Wall
 all: arraySpiral fibo heaps permuteChars Top4 floodfill
 
 arraySpiral:
-	$(GXX) arraySpiral.cpp -o $@
+	$(GXX) arraySpiral.cpp -o $@.out
 
 fibo:
-	$(GXX) fibo.cpp -o $@
+	$(GXX) fibo.cpp -o $@.out
 
 heaps:
-	$(GXX) heaps.cpp -o $@
+	$(GXX) heaps.cpp -o $@.out
 
 permuteChars:
-	$(GXX) permuteChars.cpp -o $@
+	$(GXX) permuteChars.cpp -o $@.out
 
 Top4:
-	$(GXX) Top4.cpp -o $@
+	$(GXX) Top4.cpp -o $@.out
 
 floodfill:
-	$(GXX) floodfill.cpp -o $@
+	$(GXX) floodfill.cpp -o $@.out
 
 clean:
 	rm -f $(binaries)
